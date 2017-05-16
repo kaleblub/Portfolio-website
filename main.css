@@ -107,9 +107,9 @@ a:after {
 }
 
 #headerwrap h3 {
-	color: white;
+	color: #3797b6;
 	font-size: 30px;
-	font-weight: 100;
+	font-weight: bold;
     font-family: 'EB Garamond', serif;
     font-style: oblique;
 }
@@ -131,7 +131,7 @@ a:after {
 }
 
 #f h3 {
-	color: white;
+	color: #0a1d23;
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;	
@@ -187,7 +187,7 @@ a:after {
 	letter-spacing: 0.15em;
 	line-height: 40px;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #0a1d23;
 	margin-top: 20px;
 }
 
@@ -307,7 +307,7 @@ a:after {
 
 #menuToggle:hover {
 	color: #88cae0;
-	background: #88cae0;
+	background: #3797b6;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
 		-ms-transition: all .1s ease-in-out;
