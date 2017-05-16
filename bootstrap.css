@@ -2121,8 +2121,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-warning {
   color: #ffffff;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #0a6a8a;
+  border-color: #0a1d23;
 }
 
 .btn-warning:hover,
@@ -2131,8 +2131,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #ed9c28;
-  border-color: #d58512;
+  background-color: #88cae0;
+  border-color: #0a1d23;
 }
 
 .btn-warning:active,
@@ -6144,7 +6144,7 @@ body.modal-open,
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   border-radius: 10px;
 }
 
@@ -6152,7 +6152,7 @@ body.modal-open,
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .carousel-caption {
