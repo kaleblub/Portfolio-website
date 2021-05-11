@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
 			<div className="container">
-			  <a className="logo" href="#">Kaleb Humpal</a>
+			  <a className="logo" href="#">KH</a>
 			  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
 			  </button>
@@ -27,9 +27,6 @@ const Navbar = () => {
 			      </li>
 			      <li className="nav-item">
 			        <a className="nav-link" href="#">My Work</a>
-			      </li>
-			      <li className="nav-item">
-			        <a className="nav-link" href="#">Portfolio</a>
 			      </li>
 			      <li className="nav-item">
 			        <a className="nav-link" href="#">Contact</a>
