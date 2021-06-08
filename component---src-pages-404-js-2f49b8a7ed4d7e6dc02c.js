@@ -1,2 +1,0 @@
-(self.webpackChunkkaleblub_github_io=self.webpackChunkkaleblub_github_io||[]).push([[883],{9616:function(e,l,t){"use strict";t.r(l);var n=t(7294),u=t(8497);l.default=function(){return n.createElement(u.Z,null,n.createElement("section",{id:"header"},n.createElement("header",null,n.createElement("h2",null,"NOT FOUND")),n.createElement("p",null,"Not a valid URL")))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-2f49b8a7ed4d7e6dc02c.js.map
