@@ -1,6 +1,7 @@
 {
   "name": "Kaleb's Portfolio",
   "description": "Clean and minimalistic personal blog and portfolio theme for Gatsby",
+  "homepage": "https://kaleblub.github.io",
   "author": "Filip Krawczyk",
   "version": "1.0.2",
   "main": "index.js",
@@ -20,7 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/kaleblub/kaleblub.github.io.git"
   },
-  "homepage": "https://github.com/kaleblub/kaleblub.github.io",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",

@@ -6,7 +6,7 @@ const FooterTemplate = () => {
     <Footer>
       <span>&copy; 2021</span>
       <span>
-        Made by <a href="https://github.com/filipkrw">Filip Krawczyk</a>
+        Made by <a href="https://github.com/kaleblub">Kaleb Humpal</a>
       </span>
       <span>Powered by <a href="https://www.gatsbyjs.com/">Gatsby</a></span>
     </Footer>

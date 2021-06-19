@@ -6,6 +6,16 @@ module.exports = {
     description: "My Portfolio Website, Built With A Mr Robot Styled Gatsby Starter",
     url: "localhost:8000", // No trailing slash allowed!
     image: "",
+    socialLinks: {
+      twitter: "#",
+      github: "https://github.com/kaleblub/",
+      linkedin: "#",
+      instagram: "#",
+      youtube: "#",
+      google: "#",
+      telegram: "#",
+      stackOverflow: "#",
+    },
     twitterUsername: "",
     mode: {
       default: "dark",
@@ -22,7 +32,7 @@ module.exports = {
         link: '/blog',
       },
       {
-        name: "MyWork",
+        name: "My Work",
         link: '/works',
       },
     ],
