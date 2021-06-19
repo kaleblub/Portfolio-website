@@ -1,0 +1,94 @@
+Arguments: 
+  /home/gaz/.nvm/versions/node/v16.2.0/bin/node /home/gaz/.nvm/versions/node/v16.2.0/bin/yarn install
+
+PATH: 
+  /home/gaz/.nvm/versions/node/v16.2.0/bin:/home/gaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/gaz/Desktop/gatsby/kaleblub.github.io/package.json: Unexpected token / in JSON at position 1616
+      at JSON.parse (<anonymous>)
+      at /home/gaz/.nvm/versions/node/v16.2.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/gaz/.nvm/versions/node/v16.2.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/gaz/.nvm/versions/node/v16.2.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "Kaleb's Portfolio",
+    "description": "Clean and minimalistic personal blog and portfolio theme for Gatsby",
+    "author": "Filip Krawczyk",
+    "version": "1.0.2",
+    "main": "index.js",
+    "license": "MIT",
+    "keywords": [
+      "gatsby",
+      "gatsby-plugin",
+      "gatsby-theme",
+      "react",
+      "markdown",
+      "minimalistic",
+      "personal",
+      "blog",
+      "portfolio"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kaleblub/kaleblub.github.io.git"
+    },
+    "homepage": "https://github.com/kaleblub/kaleblub.github.io",
+    "scripts": {
+      "build": "gatsby build",
+      "clean": "gatsby clean",
+      "develop": "gatsby develop",
+      "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+      "serve": "gatsby serve"
+    },
+    "peerDependencies": {
+      "gatsby": "^3.3.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "gatsby": "^3.3.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "dependencies": {
+      "@mdx-js/mdx": "^1.6.22",
+      "@mdx-js/react": "^1.6.22",
+      "gatsby": "^3.3.0",
+      "gatsby-image": "^3.3.0",
+      "gatsby-plugin-mdx": "^2.3.0",
+      "gatsby-plugin-page-creator": "^3.3.0",
+      "gatsby-plugin-react-helmet": "^4.3.0",
+      "gatsby-plugin-sharp": "^3.3.0",
+      "gatsby-source-filesystem": "^3.3.0",
+      "gatsby-transformer-sharp": "^3.3.0",
+      "gh-pages": "^3.2.2",
+      "image-size": "^1.0.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-helmet": "^6.1.0",
+      "react-lazy-load-image-component": "^1.5.1",
+      "react-syntax-highlighter": "^15.4.3",
+      "slugify": "^1.5.0"
+    },
+    // "bugs": {
+    //   "url": "https://github.com/filipkrw/gatsby-theme-hello-friend-ng/issues"
+    // }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

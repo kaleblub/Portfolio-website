@@ -1,0 +1,197 @@
+@import "index";
+
+// Was tied to body in _main.css and Gatsby doesn't allow adding
+// classes to the body tag.
+.dark-theme {
+  background-color: $dark-background;
+  color: $dark-color;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+a.social-icon {
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.project-info {
+  border-bottom: 1px $dark-border-color dashed;
+  padding-bottom: 25px;
+  margin-top: 25px;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+}
+
+.dark-theme {
+  .project-info {
+    border-bottom-color: $light-border-color;
+  }
+}
+
+.post-info.with-dashed-border {
+  border-top: 1px dashed $dark-border-color;
+  // border-top: 1px #808080 dashed;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+.dark-theme {
+  .post-info.with-dashed-border {
+    border-top-color: $light-border-color;
+  }
+}
+
+// Menu links and theme toggle
+.menu {
+  margin-right: 0;
+  border-right: none;
+}
+
+.menu__inner.stretch {
+  padding-right: 0;
+
+  li:last-child {
+    margin-right: 0;
+  }
+}
+
+.theme-toggle {
+  padding-left: 18px;
+  border-left: 1px solid;
+
+  @media #{$media-size-phone} {
+    padding-left: 0;
+    border-left: none;
+  }
+}
+
+pre {
+  background: rgb(246, 244, 242) !important;
+
+  code {
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    color: inherit;
+
+    &:first-child {
+      color: rgb(142, 144, 140);
+      padding-right: 25px !important;
+    }
+
+    &:last-child {
+      color: inherit;
+      padding-right: 15px !important;
+    }
+  }
+}
+
+.dark-theme {
+  pre {
+    background: rgb(31, 33, 35) !important;
+  }
+}
+
+.image-rounded {
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 40px 0;
+
+  display: flex;
+  justify-content: center;
+
+  background: rgb(246, 244, 242);
+
+  &.wide {
+    margin: 40px -50px;
+    max-width: 860px;
+
+    @media #{$media-size-tablet} {
+      margin: 40px 0;
+    }
+  }
+}
+
+.dark-theme {
+  .image-rounded {
+    background: rgb(31, 33, 35);
+  }
+}
+
+.lazy-load-image-background.opacity.lazy-load-image-loaded,
+.img-opacity-transition {
+  display: block !important;
+  transition: opacity 500ms ease 0s !important;
+}
+
+.outer-img-container {
+  // display: flex;
+  margin: 25px 0;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+
+  border-radius: 8px;
+  background: rgb(246, 244, 242);
+
+  > img,
+  span,
+  .gatsby-image-wrapper {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.dark-theme {
+  .img-container {
+    background: rgb(31, 33, 35);
+  }
+}
+
+.wide {
+  margin: 40px -50px;
+  max-width: 860px;
+
+  @media #{$media-size-tablet} {
+    margin: 40px 0;
+  }
+}
+
+.footer__content > :not(:last-child)::after {
+  padding: 0 8px;
+}
+
+.footer__content > :last-child {
+  padding: 0;
+}
+
+@media #{$media-size-tablet} {
+  .footer__content > :not(:last-child)::after {
+    padding: 0;
+  }
+}
+
+span.react-syntax-highlighter-line-number {
+  text-align: left !important;
+}
