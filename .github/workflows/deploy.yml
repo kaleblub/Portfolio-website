@@ -1,0 +1,18 @@
+name: Publish Personal Site
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: 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
+          deploy-branch: master
+          # gatsby-args: --prefix-paths
+
